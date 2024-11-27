@@ -16,3 +16,86 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:disabled {
+  color: #ccc;
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+button:hover,
+button:focus {
+  background-color: #6c8cff;
+}
+
+.back-link {
+  width: 60px;
+}
+
+input {
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  font-size: 20px;
+}
+
+input:hover {
+  border: 1px solid #000000;
+}
+input:active {
+  color: #000000;
+  border: 1px solid #4e75ff;
+}
+
+input:disabled {
+  color: #808080;
+  border: 1px solid #808080;
+}
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 346px;
+  height: 72px;
+  justify-content: space-between;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55px;
+  height: 72px;
+}
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
